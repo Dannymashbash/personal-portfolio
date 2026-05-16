@@ -44,6 +44,17 @@ header {
     margin: 0 auto;
 }
 
+.contact-container{
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly ;
+}
+
+#home-container{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* Lettering */
 
@@ -75,4 +86,16 @@ a{
 .btn:focus {
     background: #252525;
     color: #fff;
+}
+
+/* images*/
+img{
+    background-color: #99D930;
+    border-radius: 100px;
+     width: 45px;
+    height: 45px;
+}
+
+img:hover{
+    background-color: #fff;
 }
