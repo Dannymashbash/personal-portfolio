@@ -4,7 +4,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
     font-size: 21px;
-    font-weight: 300;
+   
 }
 
 /* Header section */
@@ -36,6 +36,7 @@ header {
 .navbar a:hover,
 .navbar a:focus {
     color:#99D930;
+    text-decoration: underline;
 }
 
 /* Layout */
@@ -66,6 +67,7 @@ header {
 .small-text {
     font-size: 16px;
     margin-top: 5px;
+    line-height: 25px;
 } 
  
 a{
@@ -96,6 +98,7 @@ img{
     height: 45px;
 }
 
-img:hover{
+img:hover,
+img:focus{
     background-color: #fff;
 }
