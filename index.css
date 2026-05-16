@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+/* Header section */
+header {
+    background-color: #252525;
+    padding: 20px 40px;
+}
+
+.navbar ol {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    transition: color 0.2s ease;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+    color:#99D930;
+}
+
+/* Layout */
+.container {
+    width: 720px;
+    margin: 0 auto;
+}
+
+
+/* Lettering */
+
+.big-heading {
+    margin: 0;
+    font-size: clamp(40px, 8vw, 80px);
+}
+
+.small-text {
+    font-size: 16px;
+    margin-top: 5px;
+} 
+ 
+a{
+    text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+    display:inline-block;
+    color: #252525;
+    text-decoration: none;
+    font-weight: 900;
+    background: #99D930;
+    padding: 10px 25px;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #252525;
+    color: #fff;
+}
