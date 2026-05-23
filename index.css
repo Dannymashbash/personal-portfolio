@@ -92,7 +92,6 @@ a{
 
 /* images*/
 img{
-    background-color: #99D930;
     border-radius: 100px;
      width: 45px;
     height: 45px;
@@ -100,5 +99,8 @@ img{
 
 img:hover,
 img:focus{
-    background-color: #fff;
+    background-color: #cecece;
 }
+
+/* Project Section */
+
